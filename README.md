@@ -1,10 +1,15 @@
-<<<<<<< HEAD
 # SiteWebCabinetDentaire
 Création d'un site web pour un cabinet dentaire.
 =======
 # SiteWebCabinet
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+
+
+To install node packages, run :
+```bash
+npm install
+```
 
 ## Development server
 
