@@ -1,0 +1,88 @@
+.footer {
+  background-color: #978164; /* ✅ nouvelle couleur de fond */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 3rem 2rem 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* ✅ Logo */
+.footer-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+/* ✅ Adresse + téléphone */
+.footer-info p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.3rem 0;
+  font-size: 16px; /* ← police pour adresse et tel */
+}
+
+.icon {
+  height: 18px;
+}
+
+/* ✅ Paragraphe explicatif */
+.footer-description {
+  margin-top: 1.5rem;
+  line-height: 1.6;
+  font-size: 20px; /* ← texte plus gros */
+  border-top: 1px solid #f5f5f5;
+  padding-top: 1rem;
+}
+
+/* ✅ Titre horaires */
+.footer-right h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 0.5rem;
+}
+
+/* ✅ Liste des horaires */
+.schedule {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.schedule li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 20px; /* ← taille des horaires */
+}
+
+.schedule span {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  color: #f5f5f5;
+}
+
+.footer-bottom hr {
+  border: none;
+  border-top: 1px solid #f5f5f5;
+  margin-bottom: 0.5rem;
+}
