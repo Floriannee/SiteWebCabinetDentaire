@@ -1,0 +1,66 @@
+.services {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: white;
+}
+
+.services h2 {
+  color: #978164;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 420px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 0.2rem;
+}
+
+.card a {
+  font-size: 0.75rem;
+  color: #978164;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.card a::after {
+  content: '→';
+  font-size: 0.8rem;
+}
+
+.btn-all-services {
+  margin-top: 2rem;
+  display: inline-block;
+  background-color: #978164;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-all-services:hover {
+  background-color: #7f6a55;
+}
