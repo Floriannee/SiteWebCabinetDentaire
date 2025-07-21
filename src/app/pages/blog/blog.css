@@ -2,6 +2,7 @@
   padding: 3rem 2rem;
   text-align: center;
   background-color: white;
+  
 }
 
 .services h2 {
@@ -12,11 +13,13 @@
 
 .service-cards {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+ justify-content: center; 
+   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
 }
+
+
 
 .card {
   width: 420px;
