@@ -97,10 +97,7 @@
   margin-top: 0.4rem;
 }
 
-.member a::after {
-  content: '→';
-  font-size: 0.8rem;
-}
+
 
 .services {
   padding: 3rem 2rem;
