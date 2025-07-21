@@ -52,20 +52,22 @@ Cependant, au-delà de la technologie, notre véritable passion réside dans l'a
  <h2>Les soins</h2>
  <div class="service-cards">
    <div class="card">
-     <img src="/img/implant.png" alt="Implant dentaire" />
-     <h3>Implant dentaire</h3>
-     <a href="#">EN SAVOIR PLUS</a>
-   </div>
-   <div class="card">
-     <img src="/img/aligneurs.png" alt="Aligneurs dentaire" />
-     <h3>Aligneurs dentaires</h3>
-     <a href="#">EN SAVOIR PLUS</a>
-   </div>
-   <div class="card">
-     <img src="/img/parodontologie.png" alt="Parodontologie" />
-     <h3>Parodontologie</h3>
-     <a href="#">EN SAVOIR PLUS</a>
-   </div>
+      <img src="/img/implant.png" alt="Implant dentaire" />
+      <h3>Implants dentaires</h3>
+      <a routerLink="/soins/implant">EN SAVOIR PLUS</a>
+    </div>
+
+    <div class="card">
+      <img src="/img/aligneurs.png" alt="Aligneurs dentaires" />
+      <h3>Aligneurs dentaires</h3>
+      <a routerLink="/soins/aligneurs">EN SAVOIR PLUS</a>
+    </div>
+
+    <div class="card">
+      <img src="/img/parodontologie.png" alt="Parodontologie" />
+      <h3>Parodontologie</h3>
+      <a routerLink="/soins/parodontologie">EN SAVOIR PLUS</a>
+    </div>
  </div>
  <a class="btn-all-services" [routerLink]="['/soins']">VOIR TOUS LES SOINS</a>
 </section>
@@ -73,22 +75,22 @@ Cependant, au-delà de la technologie, notre véritable passion réside dans l'a
 <section class="services">
   <h2>Blog</h2>
   <div class="service-cards">
-    <div class="card">
+     <div class="card">
       <img src="/img/santebucco.png" alt="Santé bucco-dentaire" />
       <h3>L’importance de la santé <br>bucco-dentaire</h3>
-      <a href="#">EN SAVOIR PLUS</a>
+      <a routerLink="/blog/sante-bucco">EN SAVOIR PLUS</a>
     </div>
 
     <div class="card">
       <img src="/img/prothese.png" alt="Prothèses dentaires" />
       <h3>Quand faut-il penser à des prothèses dentaires ?</h3>
-      <a href="#">EN SAVOIR PLUS</a>
+      <a routerLink="/blog/protheses-dentaires">EN SAVOIR PLUS</a>
     </div>
 
     <div class="card">
       <img src="/img/dentsagesse.png" alt="Dents de sagesse" />
       <h3>Faut-il forcément arracher ses dents de sagesse ?</h3>
-      <a href="#">EN SAVOIR PLUS</a>
+      <a routerLink="/blog/dents-de-sagesse">EN SAVOIR PLUS</a>
     </div>
   </div>
   <a class="btn-all-services" [routerLink]="['/blog']">VOIR PLUS D’ACTUALITÉS</a>
