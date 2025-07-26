@@ -1,0 +1,51 @@
+.soin-detailles {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.soin-banner-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.soin-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.soin-content h1 {
+  color: #978164;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.soin-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.btn-contact {
+  display: inline-block;
+  background-color: #b49b7e;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.btn-contact:hover {
+  background-color: #9d846b;
+}
