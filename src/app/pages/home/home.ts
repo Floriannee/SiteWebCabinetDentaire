@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { ImageCarousel } from '../../image-carousel/image-carousel';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterModule],
+  imports: [RouterModule,ImageCarousel],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
