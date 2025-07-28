@@ -1,1 +1,10 @@
-<p>image-carousel works!</p>
+<div class="carrousel">
+  <div class="carrousel-image">
+    <img [src]="images[currentIndex]" alt="Carrousel Image" />
+  </div>
+
+  <div class="carrousel-nav">
+    <button (click)="prevImage()">&#10094;</button>
+    <button (click)="nextImage()">&#10095;</button>
+  </div>
+</div>

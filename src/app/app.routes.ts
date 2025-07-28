@@ -15,6 +15,8 @@ import { SanteBucco } from './pages/blog/sante-bucco/sante-bucco';
 import { DentisteEnfant } from './pages/blog/dentiste-enfant/dentiste-enfant';
 import { ProthesesDentaires } from './pages/blog/protheses-dentaires/protheses-dentaires';
 import { DentsDeSagesse } from './pages/blog/dents-de-sagesse/dents-de-sagesse';
+import { BlanchimentDentaire } from './pages/blog/blanchiment-dentaire/blanchiment-dentaire';
+import { MaladiesParodontales } from './pages/blog/maladies-parodontales/maladies-parodontales';
 
 export const routes: Routes = [
   { path: '', component: Home },
@@ -32,5 +34,7 @@ export const routes: Routes = [
   { path: 'blog/protheses-dentaires', component: ProthesesDentaires },  
   { path: 'blog/dents-de-sagesse', component: DentsDeSagesse },  
   { path: 'blog/dentiste-enfant', component: DentisteEnfant },  
+    { path: 'blog/blanchiment-dentaire', component: BlanchimentDentaire},
+  { path: 'blog/maladies-parodontales', component: MaladiesParodontales},
   { path: '**', redirectTo: '' }
 ];
