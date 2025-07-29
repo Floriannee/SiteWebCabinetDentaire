@@ -8,4 +8,20 @@ import { Component } from '@angular/core';
 })
 export class Galerie {
 
+  openImage(src: string) {
+    const popup = document.getElementById('popup');
+    const popupImg = document.getElementById('popup-img') as HTMLImageElement;
+
+    if (popup && popupImg) {
+      popup.style.display = 'block';  
+      popupImg.src = src; 
+    }
+  }
+
+  closeImage() {
+    const popup = document.getElementById('popup');
+    if (popup) {
+      popup.style.display = 'none';  
+    }
+  }
 }
