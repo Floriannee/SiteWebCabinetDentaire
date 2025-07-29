@@ -1,42 +1,34 @@
 <section class="gallery">
   <h2>Notre Galerie</h2>
   <div class="image-grid">
-    <div class="image-card" onclick="openImage('img/photocab2.jpg')">
+      <div class="image-card" (click)="openImage('img/photocab1.jpg')">
+      <img src="img/photocab1.jpg" alt="Image 1" />
+    </div>
+    <div class="image-card" (click)="openImage('img/photocab2.jpg')">
       <img src="img/photocab2.jpg" alt="Image 2" />
     </div>
-    <div class="image-card" onclick="openImage('img/photocab3.jpg')">
+    <div class="image-card" (click)="openImage('img/photocab3.jpg')">
       <img src="img/photocab3.jpg" alt="Image 3" />
     </div>
-    <div class="image-card" onclick="openImage('img/photocab4.jpg')">
+    <div class="image-card" (click)="openImage('img/photocab4.jpg')">
       <img src="img/photocab4.jpg" alt="Image 4" />
     </div>
-    <div class="image-card" onclick="openImage('img/photocab5.jpg')">
+    <div class="image-card" (click)="openImage('img/photocab5.jpg')">
       <img src="img/photocab5.jpg" alt="Image 5" />
     </div>
-    <div class="image-card" onclick="openImage('img/photocab6.jpg')">
+    <div class="image-card" (click)="openImage('img/photocab6.jpg')">
       <img src="img/photocab6.jpg" alt="Image 6" />
     </div>
-    <div class="image-card" onclick="openImage('img/photocab7.jpg')">
+    <div class="image-card" (click)="openImage('img/photocab7.jpg')">
       <img src="img/photocab7.jpg" alt="Image 7" />
+    </div>
+    <div class="image-card" (click)="openImage('img/photocab8.jpg')">
+      <img src="img/photocab8.jpg" alt="Image 8" />
     </div>
   </div>
 </section>
 
-<div id="lightbox" class="lightbox" onclick="closeImage()">
-  <img id="lightbox-img" src="" alt="Lightbox Image" />
+<div id="popup" class="popup">
+  <span class="close-btn" (click)="closeImage()">×</span>
+  <img id="popup-img" src="" alt="Image Grand Format" />
 </div>
-
- <script>
-        function openImage(src) {
-            const lightbox = document.getElementById('lightbox');
-            const lightboxImg = document.getElementById('lightbox-img');
-            lightbox.style.display = 'flex';
-            lightboxImg.src = src; 
-        }
-
-        function closeImage() {
-            const lightbox = document.getElementById('lightbox');
-            lightbox.style.display = 'none'; 
-        }
-    </script>
-
