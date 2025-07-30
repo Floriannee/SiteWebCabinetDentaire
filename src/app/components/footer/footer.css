@@ -116,3 +116,71 @@
   margin-bottom: 0.8rem;
   width: 100%;
 }
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .footer-container {
+    padding: 0 1rem;
+    gap: 1.5rem;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+  }
+
+  .footer-phone{
+    display:flex;
+  }
+  
+  .footer-logo {
+    width: 120px;
+    height: auto; 
+    margin: 0;
+  }
+
+  .footer-info {
+    margin-bottom: 0;
+    margin-left:20px;
+    font-size: 9px;
+    flex-direction:column;
+  }
+
+  .footer-description {
+    font-size: 13px;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    text-align: left; 
+  }
+
+  .footer-right h3 {
+    font-size: 22px;
+    max-width: 100%;
+  }
+
+  .schedule {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .schedule li {
+    padding: 0.5rem 0;
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+
+  .footer-bottom hr {
+    margin-bottom: 0.5rem;
+  }
+}

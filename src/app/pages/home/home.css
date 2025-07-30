@@ -232,3 +232,70 @@
 .btn-all-services:hover {
   background-color: #7f6a55;
 }
+
+
+
+@media (max-width: 768px) {
+
+  .home-banner {
+    width: 90%;
+    height: auto;
+  }
+
+  .intro {
+    padding: 2rem 2rem;
+    font-size: 0.85rem;
+    max-width: 100%;
+    margin: 0;
+  }
+
+
+  .cabinet-gallery {
+    padding: 2rem 1rem;
+  }
+
+  .cabinet-gallery img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .team {
+    padding: 2rem 1rem;
+  }
+
+  .team h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .member {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .member img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+  }
+
+  .member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+}

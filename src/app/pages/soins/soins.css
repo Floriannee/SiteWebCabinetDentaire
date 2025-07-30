@@ -143,3 +143,58 @@
 .btn-contact:hover {
   background-color: #9d846b;
 }
+
+
+
+@media (max-width: 768px) {
+
+  .services {
+    padding: 2rem 1rem;
+  }
+
+  .services h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .service-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .card {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+  }
+
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .card a {
+    font-size: 0.8rem;
+  }
+
+  .btn-all-services {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+
+  .btn-gallery {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+
+  .btn-all-services:hover, .btn-gallery:hover {
+    background-color: #7f6a55;
+  }
+}
