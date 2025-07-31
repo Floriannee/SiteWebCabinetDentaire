@@ -141,17 +141,27 @@
   }
   
   .footer-logo {
-    width: 120px;
-    height: auto; 
-    margin: 0;
+    width: 105px;
+    height: 95px; 
+    margin-top: 20px;
+    
   }
 
   .footer-info {
     margin-bottom: 0;
     margin-left:20px;
-    font-size: 9px;
+    margin-top: 20px;
+    font-size: 8px;
     flex-direction:column;
   }
+
+  .footer-info p {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.3rem 0;
+  font-size: 12.5px;
+}
 
   .footer-description {
     font-size: 13px;
