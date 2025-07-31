@@ -45,3 +45,22 @@
 .carrousel-nav button:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+
+
+@media (max-width: 768px) {
+  .carrousel {
+    width: 100%;
+    height: 250px;
+  }
+
+  .carrousel-image img {
+    width: 90%;
+    height: 90%;
+  }
+
+  .carrousel-nav button {
+    font-size: 1.5em;
+    padding: 8px;
+  }
+}
